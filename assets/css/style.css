@@ -61,8 +61,7 @@ header {
 }
 
 .profile-img1 {
-   width: 3rem;
-   height: 3rem;
+   width: 3.5rem;
 }
 
 /* header-bottom */
@@ -75,7 +74,7 @@ header {
 
 .header-bottom-p1 {
    display: flex;
-   gap: 1.5rem;
+   gap: 0.8rem;
    align-items: center;
 }
 
@@ -88,6 +87,16 @@ header {
    display: flex;
    align-items: center;
    gap: 1.5rem;
+}
+
+.welcome-user-msg {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.userID {
+    font-size: 1.8rem;
 }
 
 .header-bottom-p2 button {
