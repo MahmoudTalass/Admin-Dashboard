@@ -7,6 +7,8 @@
    --page-theme-color1: #374151;
    --page-theme-color2: #111827;
    --page-theme-color3: #4b5563;
+
+   --heading-font-size: 1.5rem;
 }
 
 body {
@@ -176,6 +178,7 @@ main {
    padding: 1.6rem 1.2rem;
    gap: 1.5rem;
    color: var(--primary-text-color);
+   line-height: 1.2rem;
 }
 
 /* first part of main-content styles */
@@ -188,7 +191,7 @@ main {
 }
 
 .main-content-heading {
-   font-size: 1.5rem;
+   font-size: var(--heading-font-size);
    grid-column: span 2;
    margin-bottom: 1rem;
 }
@@ -227,10 +230,6 @@ main {
    background-color: #d1d5db;
 }
 
-.card-text {
-   line-height: 1.2rem;
-}
-
 .card-text > p {
    color: var(--secondary-text-color);
 }
@@ -245,4 +244,51 @@ main {
    align-self: flex-end;
    display: flex;
    justify-content: space-between;
+}
+
+
+/* Second part of main-content styles */
+
+.main-content-p2 {
+    display: grid;
+    align-content: start;
+    gap: 3rem;
+}
+
+.announcements {
+    display: grid;
+    gap: 1rem;
+}
+
+.announcements-heading {
+    font-size: var(--heading-font-size);
+}
+
+.announcements-content {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--page-theme-color1);
+    border-radius: 0.5rem;
+    padding: 2.5rem 2rem;
+}
+
+.announcement {
+    border-bottom: 1px var(--secondary-text-color) solid;
+    padding: 1.5rem .2rem;
+    color: var(--secondary-text-color)
+}
+
+.announcement-title {
+    color: var(--primary-text-color);
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+}
+
+.announcement:first-child {
+    padding-top: 0;
+}
+
+.announcement:last-child {
+    border: none;
+    padding-bottom: 0;
 }
