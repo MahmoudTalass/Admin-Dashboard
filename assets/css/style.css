@@ -150,4 +150,34 @@ nav > ul > li > a {
 
 main {
     background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 1.6rem 1.2rem;
+    gap: 1.2rem;
+}
+
+.main-content-p1 {
+    display: grid;
+    align-content: start;
+    grid-template-columns: 1fr;
+    height: 100%;
+}
+
+.main-content-p1 > h2 {
+    grid-column: span 2;
+    margin-bottom: 0.6rem;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid black;
+    height: 200px;
+    padding: 1.5rem 1rem;
 }
