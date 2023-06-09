@@ -1,6 +1,5 @@
 * {
    box-sizing: border-box;
-   font-family: 'Roboto', sans-serif;
 
    --primary-text-color: #fff;
    --secondary-text-color: #ccc;
@@ -8,6 +7,10 @@
    --page-theme-color1: #374151;
    --page-theme-color2: #111827;
    --page-theme-color3: #4b5563;
+}
+
+body {
+   font-family: "Roboto", sans-serif;
 }
 
 .page-container {
@@ -95,13 +98,13 @@ header {
 }
 
 .welcome-user-msg {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
 }
 
 .userID {
-    font-size: 1.8rem;
+   font-size: 1.8rem;
 }
 
 .header-bottom-p2 button {
@@ -184,8 +187,8 @@ main {
    height: 100%;
 }
 
-.main-content-heading{
-    font-size: 1.5rem;
+.main-content-heading {
+   font-size: 1.5rem;
    grid-column: span 2;
    margin-bottom: 1rem;
 }
