@@ -1,8 +1,8 @@
 * {
    box-sizing: border-box;
 
-    --primary-text-color: #fff;
-    --secondary-text-color: #CCC;
+   --primary-text-color: #fff;
+   --secondary-text-color: #ccc;
 }
 
 .page-container {
@@ -57,14 +57,12 @@ header {
 }
 
 .bell-icon {
-   flex-basis: auto;;
+   flex-basis: auto;
 }
 
 .profile-img1 {
    width: 3rem;
    height: 3rem;
-   border-radius: 50%;
-   background-color: black;
 }
 
 /* header-bottom */
@@ -72,12 +70,17 @@ header {
 .header-bottom {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
+   padding-bottom: 0.5rem;
 }
 
 .header-bottom-p1 {
    display: flex;
    gap: 1.5rem;
    align-items: center;
+}
+
+.profile-img2 {
+   width: 5rem;
 }
 
 .header-bottom-p2 {
