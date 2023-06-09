@@ -247,6 +247,8 @@ main {
 }
 
 
+
+
 /* Second part of main-content styles */
 
 .main-content-p2 {
@@ -254,6 +256,9 @@ main {
     align-content: start;
     gap: 3rem;
 }
+
+
+/* Announcements Style */
 
 .announcements {
     display: grid;
@@ -269,7 +274,7 @@ main {
     flex-direction: column;
     background-color: var(--page-theme-color1);
     border-radius: 0.5rem;
-    padding: 2.5rem 2rem;
+    padding: 2rem;
 }
 
 .announcement {
@@ -284,6 +289,10 @@ main {
     margin-bottom: 0.2rem;
 }
 
+.announcement-description {
+    font-size: .9rem;
+}
+
 .announcement:first-child {
     padding-top: 0;
 }
@@ -292,3 +301,8 @@ main {
     border: none;
     padding-bottom: 0;
 }
+
+
+/* Trending style */
+
+
